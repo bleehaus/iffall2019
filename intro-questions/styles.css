@@ -1,27 +1,29 @@
 
 body {
 	width:60%;
-	max-width:750px;
+	max-width:710px;
 	text-align:left;
 	margin-left:20%;
 }
 
+/*
 #header {
 	background-color:#ffba5a;
 	opacity:0.95;
 	position:fixed;
 	width:55%;
-	max-width:750px;
+	max-width:720px;
 	padding:30px;
 }
 
 #section {
 	margin-top: 200px;
 }
+*/
 
 p {
-	font-family: Lucida Console;
-	font-size: 1em;
+	font-family: 'Roboto' , sans-serif;
+	font-size: 1.1em;
 	line-height: 150%;
 }
 
