@@ -28,12 +28,14 @@ p {
 a {
 	text-decoration-line: none;
 	color:black;
-	background-color: #fbc99d;
+	/* background-color: #fbc99d; */
+	background-color: hsl(28, 92%, 80%);
 	padding:3px;
 }
 
 a:hover {
-	background-color: #ec8f6a;
+	background-color: hsl(23, 95%, 70%);
+	/* background-color: #ec8f6a; */
 	color: white;
 	padding: 3px;
 }
@@ -54,7 +56,7 @@ ol li {
 	font-family: Lucida Console;
 	font-size: 1.5em;
 	color: black;
-	background-color: #99ddcc;
+	background-color: hsl(165, 50%, 73%);
 	padding: 20px;
 	
 }
