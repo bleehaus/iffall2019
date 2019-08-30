@@ -43,7 +43,7 @@ a:hover {
 }
 
 h1 {
-	font-family: Lucida Console;
+	font-family: Lucida Console, monospace;
 	line-height: 150%;
 	font-size: 1.5em;
 	text-transform:uppercase;
@@ -55,7 +55,7 @@ ol {
 }
 
 ol li {
-	font-family: Lucida Console;
+	font-family: Lucida Console, monospace;
 	font-size: 1.5em;
 	color: black;
 	background-color: hsl(165, 50%, 73%);
