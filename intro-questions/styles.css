@@ -1,0 +1,60 @@
+
+body {
+	width:60%;
+	max-width:750px;
+	text-align:left;
+	margin-left:20%;
+}
+
+#header {
+	background-color:#ffba5a;
+	opacity:0.95;
+	position:fixed;
+	width:55%;
+	max-width:750px;
+	padding:30px;
+}
+
+#section {
+	margin-top: 200px;
+}
+
+p {
+	font-family: Lucida Console;
+	font-size: 1em;
+	line-height: 150%;
+}
+
+a {
+	text-decoration-line: none;
+	color:black;
+	background-color: #fbc99d;
+	padding:3px;
+}
+
+a:hover {
+	background-color: #ec8f6a;
+	color: white;
+	padding: 3px;
+}
+
+h1 {
+	font-family: Lucida Console;
+	line-height: 150%;
+	font-size: 1.5em;
+	text-transform:uppercase;
+}
+
+ol {
+	background-color:white;
+
+}
+
+ol li {
+	font-family: Lucida Console;
+	font-size: 1.5em;
+	color: black;
+	background-color: #99ddcc;
+	padding: 20px;
+	
+}
