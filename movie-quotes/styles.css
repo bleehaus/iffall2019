@@ -1,0 +1,33 @@
+body {
+	margin-left:10%;
+}
+
+h1 {
+	font-family: Lucida console;
+}
+
+span.venkman {
+	background-color:orange;
+	padding:5px;
+}
+
+span.dana {
+	background-color:green;
+}
+
+span.mayor {
+	background-color:pink;
+	padding:10px;
+}
+
+span.stantz {
+
+}
+
+span.egon {
+
+}
+
+span.winston {
+
+}
