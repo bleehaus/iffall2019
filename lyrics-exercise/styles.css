@@ -1,0 +1,120 @@
+
+
+body {
+	margin-left:20%;
+	font-family: 'Roboto', sans-serif;
+	font-size:1.1em;
+	width:60%;
+	max-width:600px;
+	line-height: 1.5;
+	background-image: linear-gradient(to bottom, #f8eacf, #eecab0);
+	/*background-color: #f8eacf; */
+}
+
+a {
+	color: #f8eacf;
+	background-color: rgba(255, 0, 0, 0.7);
+	text-decoration: none;
+	padding:2px;
+	transition: 0.3s /* easier than i expected!! */
+}
+
+a:hover {
+	background-color: rgba(255, 0, 0, 0.3);
+	color:black;
+}
+
+.verse {
+	margin-top:40px;
+	margin-bottom: 20px;
+	padding:10px;
+	font-weight:bold;
+}
+
+/* characters */
+
+.shang {
+	background-color: rgba(255, 0, 0, 0.3);
+	padding:10px;
+	line-height:2;
+}
+
+.shang:hover {
+	/* how can i do a universal hover? like if
+	the user hovers over shang's char, his lyrics
+	are emphasized and vice versa? */
+}
+
+.po {
+	background-color: rgba(90, 154, 192, 0.4);
+	padding:10px;
+	line-height:2;
+}
+
+.yao {
+	background-color: rgba(240, 158, 112, 0.7);
+	padding:10px;
+	line-height:2;
+}
+
+.ling {
+	background-color: rgba(228, 208, 71, 0.6);
+	padding:10px;
+	line-height:2;
+}
+
+.mushu {
+	background-color: rgba(139, 20, 84, 0.3);
+	padding:10px;
+	line-height:2;
+}
+
+.mulan {
+	background-color: rgba(140, 210, 192, 0.7);
+	padding:10px;
+	line-height:2;
+}
+
+.chorus {
+	background-color: rgba(216, 199, 209, 0.6);
+	padding:10px;
+	line-height:2;
+}
+
+/* character grid */
+
+.charleft {
+	bottom:10px;
+	left:0px;
+	position: fixed;
+	text-align:left;
+	line-height:1;
+	width:180px;
+}
+
+.charleft img {
+	width:55px;
+}
+
+.charleft p {
+	text-align:left;
+}
+
+.charright {
+	top:50px;
+	right:290px;
+	position: fixed;
+	text-align:center;
+	line-height:1;
+}
+
+.charright img {
+	width:100px;
+}
+
+.charright p {
+	margin-left:40px;
+	text-align:right;
+	float:right;
+	padding:20px;
+}
