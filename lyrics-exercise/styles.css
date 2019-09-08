@@ -5,10 +5,14 @@ body {
 	font-family: 'Roboto', sans-serif;
 	font-size:1.1em;
 	width:60%;
-	max-width:600px;
+	max-width:700px;
 	line-height: 1.5;
 	background-image: linear-gradient(to bottom, #f8eacf, #eecab0);
 	/*background-color: #f8eacf; */
+}
+
+h1 {
+	font-size:3em;
 }
 
 a {
@@ -76,7 +80,7 @@ a:hover {
 }
 
 .chorus {
-	background-color: rgba(216, 199, 209, 0.6);
+	background-color: rgba(226, 226, 226, 0.6);
 	padding:10px;
 	line-height:2;
 }
@@ -84,7 +88,7 @@ a:hover {
 /* character grid */
 
 .charleft {
-	bottom:10px;
+	bottom:5%;
 	left:0px;
 	position: fixed;
 	text-align:left;
