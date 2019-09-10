@@ -1,18 +1,32 @@
 
+img.bg {
+ 	min-height: 100%;
+    min-width: 1024px;
+    width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+    opacity:0.05;
+    z-index:-1;
+    /*z-index puts the img in the back */
+}
 
 body {
 	margin-left:20%;
 	font-family: 'Roboto', sans-serif;
 	font-size:1.1em;
-	width:60%;
+	width:50%;
 	max-width:700px;
+	min-width:200px;
 	line-height: 1.5;
-	background-image: linear-gradient(to bottom, #f8eacf, #eecab0);
+	background-image: linear-gradient(to bottom, 
+		#f8eacf, rgba(255, 50, 20, 0.3)); 
 	/*background-color: #f8eacf; */
 }
 
 h1 {
-	font-size:3em;
+	font-size:2.5em;
 }
 
 a {
@@ -27,6 +41,27 @@ a:hover {
 	background-color: rgba(255, 0, 0, 0.3);
 	color:black;
 }
+
+/*
+.video {
+	top: 20%;
+	right:0px;
+	position: fixed;
+	text-align:left;
+	line-height:1;
+	width:25%;
+	height:20%;
+}
+*/
+
+/*
+.video {
+	bottom:0;
+	position:fixed;
+	right:5%;
+}
+*/
+
 
 .verse {
 	margin-top:40px;
@@ -93,11 +128,11 @@ a:hover {
 	position: fixed;
 	text-align:left;
 	line-height:1;
-	width:180px;
+	width:160px;
 }
 
 .charleft img {
-	width:55px;
+	width:45px;
 }
 
 .charleft p {
