@@ -115,7 +115,6 @@ a:hover {
 .both_img {
 	text-align:center;
 	margin-left:10%;
-
 }
 
 .both_img img {
@@ -127,7 +126,7 @@ a:hover {
 }
 
 .both_img .both {
-	background-color: rgba(235, 230, 223, 0.7);
+	background-color: rgba(235, 230, 223, 1);
 	padding:5px;
 	font-weight:bold;
 	text-align:center;
@@ -151,6 +150,8 @@ a:hover {
 	font-weight:bold;
 	text-align:center;
 }
+
+
 
 /*MAIN BODY*/
 
@@ -180,23 +181,23 @@ a:hover {
 
 .pearl {
 	background-color: rgba(243, 172, 187, 0.6);
-	padding:5px;
+	padding:10px;
 	line-height:1.7;
-	padding-left:10px;
+	padding-left:20px;
 }
 
 .connie {
 	background-color: rgba(154, 241, 183, 0.5);
-	padding:5px;
+	padding:10px;
 	line-height:1.7;
-	padding-left:10px;
+	padding-left:20px;
 }
 
 .both {
 	/*background-color:rgba(250, 50, 200, 0.3);*/
 	background-color:rgba(235, 230, 223, 0.7);
-	padding:5px;
+	padding:10px;
 	line-height:1.7;
-	padding-left:10px;
+	padding-left:20px;
 	font-weight:bold;
 }
