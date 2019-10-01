@@ -115,22 +115,23 @@ p {
 
 .section3 {
 	background: #ffd276;
-	padding-bottom:30px;
+	padding-bottom:33px;
 	padding-top:5px;
 }
 
 .section3 p {
-	margin-top:-1px;
-	margin-left:130px;
-	margin-right:130px;
+	margin-top:1px;
+	margin-left:120px;
+	margin-right:120px;
 	text-align:center;
 	font-size:1.55em;
+	letter-spacing:0.35px;
 }
 
 footer {
 	margin-left:352px;
 	margin-right:360px;
-	padding-top:29px;
+	padding-top:25.5px;
 	padding-bottom: 16px;
 	color: #7ad094;
 }
