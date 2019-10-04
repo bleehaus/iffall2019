@@ -47,8 +47,10 @@ p {
 }
 
 .content {
-	margin-left:355px;
-	margin-right:355px;
+/*	margin-left:355px;
+	margin-right:355px;*/
+	width: 960px;
+	margin: auto;
 	padding-top:1px;
 	padding-bottom: 40px;
 }
@@ -96,7 +98,6 @@ p {
 
 .section2_box strong {
 	/*"photo title"*/
-	/*HOW do i get this aligned w/ the top of the img*/
 	padding-bottom:5px;
 	display:inline-block;
 	font-size:1.1em;
