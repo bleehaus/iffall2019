@@ -1,0 +1,367 @@
+body {
+	background-color:white;
+	margin: 5%;
+	transition: all 0.3s;
+	font-family:helvetica, sans-serif;
+}
+
+header {
+	margin-left:10px;
+}
+
+header a {
+	background-color: rgba(0, 255, 255, 0.5);
+	color:black;
+	padding:5px;
+	transition-duration:0.3s;
+}
+
+header a:hover {
+	color:white;
+	background-color: rgba(255, 0, 255, 0.7);
+}
+
+.button {
+	width: 200px;
+	height:200px;
+	display:inline-block;
+	margin:auto;
+	text-align:center;
+}
+
+.button_container {
+	border: 1px solid #ddd;
+/*	margin: 0 10px 10px 0;*/
+	margin: 10px;
+	padding: 20px;
+	width: 300px;
+	height: 300px;
+	float: left;
+	overflow: hidden;
+	box-sizing: border-box;
+	text-align: center;
+}
+
+img {
+	display:inline-block;
+	transition: all 0.3s;
+}
+
+/*.button img {
+	max-height:80px;
+	max-width:180px;
+	margin:50px;
+	text-align:center;
+	transition: all 0.3s;
+}*/
+
+a {
+	text-decoration:none;
+}
+
+.ibm {
+	background-color:rgba(255, 200, 0, 0.3);
+	width: 200px;
+	height:200px;
+	transition: all 0.6s;
+	border-radius:100%;
+	margin-top:20px;
+/*	border-top-right-radius: 0;*/
+}
+
+.imb img {
+	height:100px;
+}
+
+.ibm:hover {
+	background-color:rgba(0, 0, 0, 1);
+	border-radius:100%;
+}
+
+.cn {
+	background-color:rgba(255, 0, 255, 1);
+	width:200px;
+		margin-top:50px;
+}
+
+.cn img {
+	margin:20px;
+}
+
+.cn:hover {
+	background-color:rgba(2, 174, 239, 1);
+	box-shadow:10px 10px black;
+}
+
+.newyorker  {
+	font-family: serif;
+	margin-top:60px;
+	color:black;
+	font-size:30px;
+	font-style:italic;
+	padding:10px 30px;
+	background-color:rgba(250, 230, 0, 1);
+	box-shadow: 10px 10px  black;
+	transition: all 0.3s;
+}
+
+.newyorker a {
+	color: black;
+}
+
+.newyorker a:hover {
+	color: white;
+}
+
+.newyorker:hover {
+	color:white;
+	padding:10px;
+	background-color: black;
+	box-shadow: 10px 10px rgba(250, 230, 0, 1);
+}
+
+.newyorkericon {
+	background-color:rgba(250, 230, 0, 0.4);
+	height:150px;
+	width: 150px;
+	transition: all 0.3s;
+}
+
+.newyorkericon img {
+	height:100px;
+	margin:20px;
+}
+
+.newyorkericon:hover {
+	background-color:rgba(240, 0, 0, 0.3);
+	border-radius:100%;
+}
+
+.facebook {
+	display:inline-block;
+	margin-top:80px;
+	font-family: 'Arvo', serif;
+	font-size:2em;
+	color:white;
+	background-color: rgba(0, 0, 160, 0.7);
+	border-radius:100px;
+	padding:10px 30px;
+	transition: all 0.3s;
+}
+
+.facebook a {
+	color:white;
+}
+
+.facebook:hover {
+	color:white;
+	background-color: rgba(0, 0, 0, 1);
+	transform: scale(1.25);
+}
+
+.npr {
+	transition: all 0.3s;
+	margin-top:80px;
+	margin-left:-20px;
+}
+
+.npr img {
+	border-radius:0px;
+	height:100px;
+	transition: all 0.3s;
+	height:80px;
+}
+
+.npr img:hover {
+	border-radius:40px;
+}
+
+.lyft {
+	background-color: rgb(255, 0, 191);
+	margin-top:80px;
+	width:100px;
+	border-radius:100px;
+	padding:5px 50px;
+	border: 6px solid rgb(255, 0, 191);
+}
+
+.lyft:hover {
+	background-color:white;
+	border: 6px solid rgb(255, 0, 191);
+}
+
+.lyft img {
+	height:50px;
+
+}
+
+.botanicalg {
+	background-color: rgba(0, 100, 70, 0.2);
+	margin:40px 60px 30px 20px;
+	padding:30px;
+	width: 100px;
+	height:100px;
+	transition: all 0.3s;
+}
+
+.botanicalg:hover {
+	border-top-left-radius:50%;
+	border-bottom-right-radius:50%;
+	background-color: rgba(0, 100, 70, 0.4);;
+}
+
+.botanicalg img {
+	height:100px;
+}
+
+.instagram {
+	height:150px;
+	width:150px;
+	margin: 50px 0px 0px 25px;
+	/*background: radial-gradient(circle, rgba(81, 91, 212, 0.6),
+		rgba(221, 42, 123, 0.9));*/
+
+	/*FROM https://codepen.io/thomasrye/pen/VaRoYv*/
+	background: radial-gradient(circle at 30% 107%,  
+		rgba(253, 244, 151, 0.8) 5%, 
+		rgba(253, 89, 73, 0.8) 45%,
+		rgba(214, 36, 159, 0.7) 50%,
+		rgba(40, 90, 235, 0.8) 80%);
+
+	border-radius:10px;
+	transition: all 0.3s;
+}
+
+.instagram:hover {
+	border-radius:100px;
+}
+
+.instagram img {
+	height:150px;
+}
+
+.instagram img:hover {
+	transform: rotate(360deg);
+}
+
+.moo {
+	background-color: rgba(0, 149, 94, 1);
+	margin-top: 30px;
+	color: white;
+	font-size:46px;
+	font-family: 'Nunito', sans-serif;
+	width:200px;
+	height:200px;
+	border-bottom-left-radius:100%;
+	border-bottom-right-radius:100%;
+	border-top-left-radius:100%;
+	transition: all 0.3s;
+}
+
+.moo img {
+	display:inline;
+	margin:30px;
+}
+
+.moo:hover {
+	background-color: rgba(200, 0, 20, 0.6);
+	border-radius:100%;
+}
+
+.sardella {
+	font-family:'Kavivanar', sans-serif;
+	margin-top:40px;
+	font-size:40px;
+	text-transform:uppercase;
+}
+
+.sardella a {
+	color:black;
+
+}
+
+.sardella a:hover {
+	text-shadow: 2px 2px cyan, 4px 4px blue;
+	/*text-shadow: 10px 10px blue;*/
+}
+
+.theline {
+	margin:-50px;
+	margin-top:20px;
+	padding:0;
+	display:inline-block;
+	position:relative;
+	box-sizing: border-box;
+}
+
+.theline a {
+	position: relative;
+	top:50px;
+	color:white;
+	font-family: 'Nunito', sans-serif;
+	font-size:26px;
+	text-transform:uppercase;
+	font-style:bold;
+}
+
+.theline img {
+	width:90%;
+	position:relative;
+	display:inline-block;
+	padding:20px;
+}
+
+.theline img:hover {
+	background-color:rgba(0, 0, 0, 1);
+}
+
+.bissingers {
+	margin-top:40px;
+	transition-duration:1sec;
+}
+
+.bissingers img:hover {
+	transform: rotate(360deg);
+}
+
+.ideo {
+	transition: all 0.3s;
+}
+
+.ideo img {
+	margin-left:-10px;
+	margin-top:30px;
+	height:190px;
+	padding:10px;
+	transition: all 0.3s;
+}
+
+.ideo:hover {
+	border: 3px solid black;
+}
+
+.dimecity img {
+	margin-top:30px;
+	width:190px;
+}
+
+.dimecity img:hover {
+	transform: scale(1.25) rotate(360deg) ;
+}
+
+.molly {
+	background-color:black;
+	height:200px;
+	margin-top:30px;
+	border-radius:100%;
+	transition: all 0.3s;
+}
+
+.molly img {
+	width:180px;
+	margin-top:60px;
+}
+
+.molly:hover {
+	transform: scale(1.2);
+}
