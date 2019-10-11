@@ -316,12 +316,34 @@ a {
 }
 
 .bissingers {
-	margin-top:40px;
+	margin-top:20px;
 	transition-duration:1sec;
+/*	background-color: rgba(255, 200, 100, 1);
+	border-radius:100%;
+	width: 90%;
+	padding:20px;*/
+	transition-duration:0.4s;
 }
+
+/*.bissingers:hover {
+	background-color: rgba(140, 100, 130, 1);
+}*/
 
 .bissingers img:hover {
 	transform: rotate(360deg);
+}
+
+.circle {
+	width:50px;
+	height:10px;
+	background-color:purple;
+}
+
+.circle:hover {
+	width:250px;
+	height:250px;
+	border-radius: 100%;
+	background-color:red;
 }
 
 .ideo {
@@ -346,7 +368,7 @@ a {
 }
 
 .dimecity img:hover {
-	transform: scale(1.25) rotate(360deg) ;
+	transform: scale(1.25) rotate(720deg) ;
 }
 
 .molly {
