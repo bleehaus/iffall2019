@@ -46,34 +46,10 @@ h2 {
 	font-weight:700;
 }
 
-/*.collapsible:active {
+.collapsible:hover {
 	color:black;
-	background-color:rgba(242, 196, 124, 0.1);
-}*/
-
-.collapsible h2:after {
-	content: "+";
+	background-color:rgba(242, 196, 124, 0.1);;
 }
-
-.collapsible.active h2:after {
-	content: "-";
-}
-
-.collapsible .content .collapsible .step:after {
-	content: "+";
-}
-
-.collapsible .content .collapsible.active .step:after {
-	content: "-";
-}
-
-/*.collapsible .step:after {
-	content: "+";
-}
-
-.collapsible .step.active:after {
-	content: "-";
-}*/
 
 .content {
 	margin-bottom:20px;
@@ -85,11 +61,6 @@ h2 {
 
 .content img {
 	width:100%;
-}
-
-img {
-	width:100%;
-	margin:10px 0px 20px 0px;
 }
 
 a {
@@ -123,25 +94,7 @@ em {
 	font-size:18pt;
 	font-weight:700;
 	color: rgba(209, 146, 46, 1);
-	padding-top:20px;
-}
-
-footer {
-	/*margin: 0% 10% 0% 10%;*/
-	background-color:rgba(242, 196, 124, 1);
-	margin-top:60px;
-	padding: 20px 0px 30px 0px;
-}
-
-footer p {
-	margin: 0% 10% 0% 10%;
-	text-align:center;
-	font-size:10pt;
-	line-height:1.5;
-}
-
-footer a {
-	color:white;
+	padding-top:15px;
 }
 
 /*SLIDESHOWS*/
@@ -187,6 +140,4 @@ footer a {
   background-color: rgba(242, 196, 124, 1);
   color: black;
 }
-
-
 
