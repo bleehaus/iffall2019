@@ -1,0 +1,199 @@
+body {
+	font-family:'Work Sans', sans-serif;
+	font-size:11pt;
+	margin:0;
+	padding:0;
+}
+
+header {
+	font-size:14pt;
+	color:white;
+	background-color: rgba(242, 196, 124, 1);
+	text-align:center;
+	padding: 10px 0px 10px 0px;
+	position:fixed;
+	width:100%;
+	z-index:10;
+}
+
+.titlebox {
+	background-image:url(images/header.jpg);
+	background-position:center center;
+	background-size:100%;
+	padding-top:45px;
+}
+
+h1 {
+	display:inline-block;
+	font-size:24pt;
+	text-align:center;
+	font-weight:700;
+	margin: 40px 40px 40px 40px;
+	padding: 10px;
+	background-color: rgba(255, 255, 255, 0.9);
+}
+
+h2 {
+	display:inline-block;
+	font-size:18pt;
+	font-weight:700;
+}
+
+.collapsible {
+	font-family:'Work Sans', sans-serif;
+	display:block;
+	font-size:18pt;
+	font-weight:700;
+}
+
+/*.collapsible:active {
+	color:black;
+	background-color:rgba(242, 196, 124, 0.1);
+}*/
+
+.collapsible h2:after {
+	content: "+";
+}
+
+.collapsible.active h2:after {
+	content: "-";
+}
+
+/*.collapsible .content .collapsible .step:after {
+	content: "+";
+}
+
+.collapsible .content .collapsible.active .step:after {
+	content: "-";
+}*/
+
+.collapsible .step:after {
+	content: " +";
+}
+
+.collapsible.active .step:after {
+	content: " -";
+}
+
+.content {
+	margin-bottom:20px;
+}
+
+.content p {
+	line-height: 1.3;
+}
+
+.content img {
+	width:100%;
+}
+
+img {
+	width:100%;
+	margin:10px 0px 20px 0px;
+}
+
+a {
+	text-decoration:none;
+	/*font-weight:600;*/
+	color: rgba(209, 146, 46, 1);
+}
+
+em {
+	font-weight:500;
+	font-style: normal;
+}
+
+.bodycopy {
+	margin: 0% 10% 0% 10%;
+}
+
+.bodycopy img {
+	width:100%;
+}
+
+.caption {
+	font-size:10pt;
+	font-style: italic;
+	color: rgba(0, 0, 0, 0.5);
+	opacity:0.8;
+	margin-top:-10px;
+}
+
+/*.time {
+	font-size:10pt;
+}*/
+
+.toggle {
+	margin: 0% 10% 0% 10%;
+}
+
+.step {
+	font-size:18pt;
+	font-weight:700;
+	color: rgba(209, 146, 46, 1);
+	padding-top:20px;
+}
+
+footer {
+	/*margin: 0% 10% 0% 10%;*/
+	background-color:rgba(242, 196, 124, 1);
+	margin-top:60px;
+	padding: 20px 0px 30px 0px;
+}
+
+footer p {
+	margin: 0% 10% 0% 10%;
+	text-align:center;
+	font-size:10pt;
+	line-height:1.5;
+}
+
+footer a {
+	color:white;
+}
+
+/*SLIDESHOWS*/
+
+.slideStep4, .slideStep5, .slideStep6 {
+	display:none;
+}
+
+.slideStep6 {
+	background-color:red;
+}
+
+.slideshow-container {
+  max-width: 100%;
+  position: relative;
+  margin: auto;
+  z-index:1;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 10px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add yellow background color */
+.prev:hover, .next:hover {
+  background-color: rgba(242, 196, 124, 1);
+  color: black;
+}
+
+
