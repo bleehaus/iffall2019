@@ -53,10 +53,12 @@ h2 {
 
 .collapsible h2:after {
 	content: "+";
+	opacity: 0.8;
 }
 
 .collapsible.active h2:after {
 	content: "-";
+	opacity: 0.8;
 }
 
 /*.collapsible .content .collapsible .step:after {
@@ -69,10 +71,12 @@ h2 {
 
 .collapsible .step:after {
 	content: " +";
+	opacity: 0.8;
 }
 
 .collapsible.active .step:after {
 	content: " -";
+	opacity: 0.8;
 }
 
 .content {
