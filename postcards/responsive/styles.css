@@ -1,0 +1,152 @@
+html {
+	height:100%;
+}
+
+body {
+	font-family:serif;
+	text-align:center;
+	overflow:hidden;
+	margin:0;
+	height:100%;
+}
+
+.about a {
+	color: rgba(243, 232, 222, 1);
+	font-family:serif;
+	font-size:1rem;
+	text-decoration:none;
+}
+
+.about {
+	position: absolute;
+	top: 20px;
+	right: 65px;
+}
+
+a {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 10;
+}
+
+#card1 {
+	background-image: url(images/postcard1.png);
+	background-size: 60%;
+	background-position: 120% 100%;
+	background-repeat:no-repeat;
+	background-color: rgba(0, 0, 0, 0.9);
+}
+
+#card2 {
+	background-image: url(images/postcard2.png);
+	background-size: 85%;
+	background-position: 200% 100%;
+	background-repeat:no-repeat;
+	background-color: rgba(141, 165, 140, 1);
+}
+
+#card3 {
+	background-image: url(images/postcard3.png);
+	background-size: 60%;
+	background-position: 30% 100%;
+	background-repeat:no-repeat;
+	background-color: rgba(167, 173, 165, 1);
+}
+
+.card_img img {
+	height: 80%;
+	position:absolute;
+	bottom:0;
+	right:-200;
+}
+
+.textbox {
+	position:absolute;
+	top:20%;
+	left:20%;
+}
+
+.textbox2 {
+	position:absolute;
+	top:10%;
+	left:10%;
+}
+
+.textbox3 {
+	position:absolute;
+	bottom:10%;
+	right:20%;
+
+}
+
+.textbox4 {
+	position:absolute;
+	top:5%;
+	left:20%;
+}
+
+.textbox5 {
+	position:absolute;
+	top:25%;
+	right:35%;
+}
+
+p {
+	font-size:2.25rem;
+	display:inline-block;
+	background-color: rgba(239, 232, 213, 1);
+	padding:5px 10px 5px 8px;
+	margin:10px;
+	box-shadow: 3px 3px 4px;
+}
+
+/*if smaller than 650px*/
+
+@media ( max-width: 650px ) {
+	#card1 {
+		background-size:90%;
+		background-position: 170% 100%;
+	}
+
+	#card2 {
+		background-size:99%;
+		background-position: 900% 100%;
+	}
+
+	#card3 {
+		background-size: 95%;
+		background-position: -700% 100%;
+	}
+
+	.textbox {
+		top:10%;
+		left:10%;
+	}
+
+	.textbox2 {
+		top:20%;
+		left:10%;
+	}
+
+	.textbox3 {
+		bottom:5%;
+		right: 10%;
+	}
+
+	.textbox4 {
+		top:20%;
+		left:5%;
+	}
+
+	.textbox5 {
+		top:50%;
+		right:20%;
+	}
+
+	p {
+		font-size:1.5rem;
+	}
+}
