@@ -100,7 +100,7 @@ p {
 	background-color: rgba(239, 232, 213, 1);
 	padding:5px 10px 5px 8px;
 	margin:10px;
-	box-shadow: 3px 3px 4px;
+	box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.7);
 }
 
 /*if smaller than 650px*/
