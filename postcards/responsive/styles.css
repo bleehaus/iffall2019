@@ -15,12 +15,14 @@ body {
 	font-family:serif;
 	font-size:1rem;
 	text-decoration:none;
+	z-index: 10;
 }
 
 .about {
 	position: absolute;
 	top: 20px;
 	right: 65px;
+	z-index: 10;
 }
 
 a {
