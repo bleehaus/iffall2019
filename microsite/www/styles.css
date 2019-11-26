@@ -1,0 +1,225 @@
+
+body {
+	margin:0;
+	padding:0;
+	font-family: 'Open Sans', sans-serif;
+	background-color: rgba(252, 246, 246, 1);
+}
+
+p {
+	line-height:1.6;
+}
+
+h1 {
+	font-family: 'Livvic', sans-serif;
+	text-transform:uppercase;
+	letter-spacing:10px;
+	font-size:8em;
+	margin-bottom:0px;
+	line-height:1;
+}
+
+a {
+	text-decoration:none;
+	color:black;
+}
+
+h2 {
+	font-family: 'Livvic', sans-serif;
+	text-transform:uppercase;
+	letter-spacing:4px;
+}
+
+.sidebar {
+	width: 40%;
+	height: 100%;
+	position:fixed;
+	float:left;
+	box-sizing:border-box;
+	padding:30px;
+	text-align:center;
+	margin:auto;
+}
+
+#home .sidebar {
+	background-image: url("images/ten largest_3.jpg");
+	background-color: rgba(244, 153, 47, 0.9);
+}
+
+#early .sidebar {
+	background-color: rgba(63, 162, 150, 0.9);
+}
+
+#philosophy .sidebar {
+	background-color: rgba(185, 135, 181, 0.9);
+}
+
+#work .sidebar {
+	background-color: rgba(245, 203, 103, 0.9);
+}
+
+#legacy .sidebar {
+	background-color: rgba(43, 135, 152, 0.7);
+}
+
+.sidebar img {
+	margin:auto;
+	width:80%;
+	max-height:500px;
+/*	max-height:700px;*/
+}
+
+.caption {
+	padding-top:10px;
+	font-size:0.9em;
+	margin:auto;
+	width:80%;
+	max-height:500px;
+/*	max-height:700px;*/
+}
+
+.main {
+	background-color: rgba(252, 246, 246, 1);
+	width: 60%;
+	height:100vh;
+	float:right;
+	box-sizing:border-box;
+	padding:30px;
+	padding-left:5%;
+	padding-right:5%;
+}
+
+.main p {
+	margin-top:40px;
+	padding-bottom:50px;
+}
+
+.sources {
+	margin-top:-20px;
+}
+
+.pullquote {
+	font-family: 'Livvic', sans-serif;
+	font-size: 1.5em;
+	line-height:1.8;
+	padding-left:50px;
+}
+
+#home a {
+	text-align:center;
+	color: rgba(244, 153, 47, 0.9);
+	font-family: 'Livvic', sans-serif;
+	font-size:1.3em;
+}
+
+#home p {
+	padding-bottom:20px;
+}
+
+#home .pullquote {
+	color: rgba(244, 153, 47, 0.9);
+}
+
+#early .pullquote {
+	color: rgba(43, 135, 152, 0.8);
+}
+
+#early #earlylink {
+	display:inline;
+}
+
+#early #earlylink a {
+	color: rgba(63, 162, 150, 0.9);
+	display:inline;
+}
+
+#philosophy #philosophy_link {
+	display:inline;
+}
+
+#philosophy #philosophy_link a {
+	color: rgba(185, 135, 181, 0.9);
+	display:inline;
+}
+
+#work #work_link {
+	display:inline;
+}
+
+#work #work_link a {
+	color: rgba(255, 200, 100, 1);
+	display:inline;
+}
+
+#legacy #legacy_link {
+	display:inline;
+}
+
+#legacy #legacy_link a {
+	color: rgba(43, 135, 152, 0.8);
+	display:inline;
+}
+
+#philosophy .pullquote {
+	color: rgba(185, 135, 181, 0.9);
+}
+
+#work .pullquote {
+	color: rgba(255, 200, 100, 1);
+}
+
+header {
+	box-sizing:border-box;
+	padding-top:15px;
+}
+
+header a {
+	color:black;
+	font-family: 'Livvic', sans-serif;
+	letter-spacing:2px;
+	display: inline-block;
+	padding-right:5%;
+	text-decoration:none;
+	font-size:1.3em;
+}
+
+/*header a:active {
+	color:pink;
+}*/
+
+/*add media query*/
+/*rules still apply, but this query can override them*/
+@media ( max-width: 800px ) {
+	.sidebar {
+		width:100%;
+		height:auto;
+		display:block;
+		position:static;
+		/*background-color:pink;*/
+	}
+
+	.main {
+		width: 100%;
+		height:auto;
+		display:block;
+		position:static;
+		margin-top:200px;
+		margin:auto;
+	}
+
+	header a {
+		font-size:1em;
+		padding-right:5%;
+	}
+}
+
+.slideshow-container {
+  	max-width: 100%;
+  	position: relative;
+  	margin: auto;
+  	z-index:1;
+}
+
+.slides_phil {
+	display:none;
+}
