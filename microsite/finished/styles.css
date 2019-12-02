@@ -24,6 +24,10 @@ a {
 	color:black;
 }
 
+a:hover {
+	color: black;
+}
+
 h2 {
 	font-family: 'Livvic', sans-serif;
 	text-transform:uppercase;
@@ -41,6 +45,7 @@ h2 {
 	margin:auto;
 }
 
+
 #home .sidebar {
 	background-image: url("images/ten largest_3.jpg");
 	background-color: rgba(244, 153, 47, 0.9);
@@ -54,6 +59,10 @@ h2 {
 	background-color: rgba(185, 135, 181, 0.9);
 }
 
+#thefive .sidebar {
+	background-color: rgba(200, 200, 103, 1);
+}
+
 #work .sidebar {
 	background-color: rgba(245, 203, 103, 0.9);
 }
@@ -64,18 +73,32 @@ h2 {
 
 .sidebar img {
 	margin:auto;
-	width:80%;
-	max-height:500px;
+	width:69%;
+	height:auto;
+/*	max-height:500px;*/
 /*	max-height:700px;*/
+}
+
+
+.prev {
+	font-family: 'Livvic', sans-serif;
+	font-size:1.5em;
+}
+
+.next {
+	font-family: 'Livvic', sans-serif;
+	font-size:1.5em;
 }
 
 .caption {
 	padding-top:10px;
-	font-size:0.9em;
+	font-size:0.8em;
 	margin:auto;
-	width:80%;
+	width:69%;
 	max-height:500px;
+	text-align:left;
 /*	max-height:700px;*/
+	color: rgba(0, 0, 0, 0.8);
 }
 
 .main {
@@ -98,11 +121,25 @@ h2 {
 	margin-top:-20px;
 }
 
+.sources a {
+	color: rgba(43, 135, 152, 0.8);
+	display:inline;
+	 transition: 0.5s;
+}
+
+.sources a:hover {
+	color: black;
+}
+
 .pullquote {
 	font-family: 'Livvic', sans-serif;
-	font-size: 1.5em;
-	line-height:1.8;
+	font-size: 1.2em;
+	line-height:1.5;
 	padding-left:50px;
+	margin-top:-40px;
+	margin-bottom:10px;
+	width:75%;
+	border-left-style:solid;
 }
 
 #home a {
@@ -121,7 +158,7 @@ h2 {
 }
 
 #early .pullquote {
-	color: rgba(43, 135, 152, 0.8);
+	color: rgba(63, 162, 150, 0.9);
 }
 
 #early #earlylink {
@@ -147,7 +184,20 @@ h2 {
 }
 
 #work #work_link a {
-	color: rgba(255, 200, 100, 1);
+	color: rgba(255, 180, 100, 1);
+	display:inline;
+}
+
+#thefive .pullquote {
+	color: rgba(200, 200, 103, 1);
+}
+
+#thefive #thefive_link {
+	display:inline;
+}
+
+#thefive #thefive_link a {
+	color: rgba(200, 200, 103, 1);
 	display:inline;
 }
 
@@ -160,12 +210,18 @@ h2 {
 	display:inline;
 }
 
+#legacy .pullquote {
+	color: rgba(43, 135, 152, 0.8);
+}
+
+
+
 #philosophy .pullquote {
 	color: rgba(185, 135, 181, 0.9);
 }
 
 #work .pullquote {
-	color: rgba(255, 200, 100, 1);
+	color: rgba(255, 180, 100, 1);
 }
 
 header {
@@ -181,6 +237,7 @@ header a {
 	padding-right:5%;
 	text-decoration:none;
 	font-size:1.3em;
+	padding-bottom:2.5em;
 }
 
 /*header a:active {
@@ -188,14 +245,27 @@ header a {
 }*/
 
 /*add media query*/
-/*rules still apply, but this query can override them*/
+/*rules still apply, but this query can override them
+when screen is smaller than 800px*/
 @media ( max-width: 800px ) {
 	.sidebar {
 		width:100%;
 		height:auto;
 		display:block;
 		position:static;
+		margin:auto;
+		margin-bottom:40px;
 		/*background-color:pink;*/
+	}
+
+	.sidebar img {
+		width:65%;
+		margin:auto;
+	}
+
+	.caption {
+		width:65%;
+		margin-bottom:40px;
 	}
 
 	.main {
@@ -207,17 +277,54 @@ header a {
 		margin:auto;
 	}
 
+	#home h1 {
+		margin-top:-30px;
+		font-size:5em;
+		line-height:1.3;
+	}
+
+	#home .sidebar {
+		height:200px;
+	}
+
 	header a {
 		font-size:1em;
-		padding-right:5%;
+		padding-right:3%;
+	}
+
+	.sources h2 {
+		font-size:1em;
 	}
 }
+
+@media ( max-width: 1300px ) {
+
+	.slideshow-container {
+		width:100%;
+	}
+
+	header a {
+		font-size:0.9em;
+		padding-right:3%;
+	}
+
+	.sources h2 {
+		font-size:0.9em;
+	}
+
+	#home h1 {
+		font-size:5em;
+		line-height:1.3;
+	}
+}
+
 
 .slideshow-container {
   	max-width: 100%;
   	position: relative;
   	margin: auto;
   	z-index:1;
+  	text-align:center;
 }
 
 .slides_phil {

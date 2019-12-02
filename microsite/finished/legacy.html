@@ -1,0 +1,164 @@
+
+<!DOCTYPE html>
+
+<html>
+
+
+<head>
+	<title>Legacy</title>
+
+	<link href="styles.css" rel="stylesheet">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+
+	<link href="https://fonts.googleapis.com/css?family=Livvic:600&display=swap" rel="stylesheet">
+
+</head>
+
+
+<body id="legacy">
+
+	<div class="sidebar">
+		<a href="index.html"><h2>Hilma Af Klint</h2></a>
+		<!-- slideshow here -->
+
+		<br>
+
+		<a class="prev" onclick="plusSlides(-1, 0)"><</a>
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a class="next" onclick="plusSlides(1, 0)">></a>
+
+
+		<br><br>
+
+		<div class="slideshow-container">
+
+			<div class="slides_phil">
+				<img src="images/hilma photo.jpg">
+				<div class="caption"><b> Artist Hilma af Klint in her studio at Hamngatan, Stockholm, circa 1895. Photograph: Courtesy of Stiftelsen Hilma af Klints Verk</div>
+			</div>
+
+			<div class="slides_phil">
+				<img src="images/legacy_hilma who.jpg">
+				<div class="caption"><b>Installation view, Hilma af Klint: Paintings for the Future, Solomon R. Guggenheim Museum, New York, October 12, 2018–February 3, 2019. Photo: David Heald</div>
+			</div>
+
+			<div class="slides_phil">
+				<img src="images/legacy_book.jpg">
+				<div class="caption"><b>Hilma af Klint: Paintings for the Future. Edited with text by Tracey Bashkoff. Contributions by Tessel M. Bauduin, Daniel Birnbaum, Briony Fer, Vivien Greene, David Max Horowitz, Andrea Kollnitz, Helen Molesworth, Julia Voss.</div>
+			</div>
+
+			<div class="slides_phil">
+				<img src="images/legacy_hilma scarf.jpg">
+				<div class="caption"><b>Clothing and accessories by Maya Luz shirt, Hellen van Berkel, Anchal Project, Michele Quan, and Michele and Martin Yeeles.Photo: Allison Chipak</div>
+			</div>
+
+			<div class="slides_phil">
+				<img src="images/legacy_modern museum.jpg">
+				<div class="caption"><b>Museum of Modern Art Stockholm, 2013. Photography by Hedvig Ersman.</div>
+			</div>
+
+			<div class="slides_phil">
+				<img src="images/legacy_guggenheim.jpg">
+				<div class="caption"><b>An installation view of the retrospective, at the Guggenheim through Feb. 3.Credit: George Etheredge for The New York Times</div>
+			</div>
+
+		
+
+			<!-- Svanen (The Swan), No. 17, Group 9, Series SUW, October 1914 – March 1915. This work was never exhibited during af Klint's lifetime. -->
+		</div>
+
+		<script>
+			var slideIndex = [1,1,1];
+			var slideId = ["slides_phil"]
+			showSlides(1, 0);
+			showSlides(1, 1);
+			showSlides(2, 1);
+
+			function plusSlides(n, no) {
+			  showSlides(slideIndex[no] += n, no);
+			}
+
+			function showSlides(n, no) {
+			  var i;
+			  var x = document.getElementsByClassName(slideId[no]);
+			  if (n > x.length) {slideIndex[no] = 1}    
+			  if (n < 1) {slideIndex[no] = x.length}
+			  for (i = 0; i < x.length; i++) {
+			     x[i].style.display = "none";  
+			  }
+			  x[slideIndex[no]-1].style.display = "block";  
+			}
+		</script>
+
+	</div>
+
+
+	<div class="main">
+		<header>
+			<a href="early.html">Early Life</a> 
+			<a href="philosophy.html">Philosophy</a> 
+			<a href="thefive.html">The Five</a> 
+			<a href="work.html">Work</a> 
+			<div id="legacy_link"><a href="legacy.html">Legacy</a></div>
+		</header>
+
+		<p>In her will, Hilma af Klint left all her abstract paintings to her nephew, a vice-admiral in the Swedish Royal Navy. She specified that her work should be kept secret for at least 20 years after her death. 
+
+		<div class="pullquote">When the boxes were opened at the end of the 1960s, very few persons had knowledge of what would be revealed.</div>
+		<p>
+		In 1970, her paintings were offered as a gift to Moderna Museet in Stockholm, which declined the donation. Thanks to the art historian Åke Fant, her art was introduced to an international audience in the 1980s, when he presented her at a Nordik conference in Helsinki in 1984. Erik af Klint then donated thousands of drawings and paintings to a foundation bearing the artist's name in the 1970s.
+			<br><br>
+		The collection of abstract paintings of Hilma af Klint counts more than 1200 pieces. It is owned and managed by the Hilma af Klint Foundation in Stockholm, Sweden. In 2017, Norwegian architectural firm Snøhetta presented plans for an exhibition centre dedicated to af Klint in Järna, south of Stockholm, with estimated building costs of between €6 million and €7.5 million. In February 2018, the Foundation signed a long-term agreement of cooperation with the Moderna Museet, thereby confirming the perennity of the Hilma af Klint Room, i.e. a dedicated space at the museum where a dozen works of the artist are shown on a continuous basis.
+		</p>
+
+
+		<div class="sources">
+
+		<h2>Further Reading</h2>
+
+		<a href="https://www.nytimes.com/2013/04/30/arts/artsspecial/Giving-a-Swedish-Pioneer-of-Abstract-Art-Her-Due.html">Giving a Swedish Pioneer of Abstraction Her Due</a>
+		<br><br>
+
+		<a href="https://www.newyorker.com/magazine/2018/10/22/hilma-af-klints-visionary-paintings">Hilma af Klint’s Visionary Paintings</a>
+		<br><br>
+
+		<a href="https://www.thehindu.com/entertainment/art/hilma-af-klint-the-tantric-artist-in-sweden/article27093449.ece">Hilma af Klint: The Tantric artist in Sweden</a>
+		<br><br>
+
+		<a href="https://www.modernamuseet.se/stockholm/en/exhibitions/hilma-af-klint-2013/biography/">Biography Hilma af Klint</a>
+		<br><br>
+
+		<a href="https://www.theartstory.org/artist/af-klint-hilma/life-and-legacy/">Hilma af Klint - Biography and Legacy</a>
+
+		<br><br>
+
+		<h2>Sources</h2>
+		
+			<a href="https://www.artforum.com/print/201301/universal-pictures-the-art-of-hilma-af-klint-38217">Artforum</a>, 
+			<a href="https://www.nytimes.com/2019/04/10/arts/design/hilma-af-klint-guggenheim.html">NY Times</a>, 
+			<a href="https://www.interiordesign.net/articles/15307-over-160-hilma-af-klint-paintings-show-at-the-guggenheim/">Interior Design</a>, 
+			<a href="https://www.guggenheim.org/exhibition/hilma-af-klint">Guggenheim</a>, 
+			<a href="https://www.hilmaafklint.se/en/">Hilma af Klint Foundation</a>
+		
+		<br><br>
+
+		<h2>Creative Director</h2>
+			<a href="https://alecobrien.github.io/iffall2019/hello/">Alec O'Brien</a>
+		
+		<br><br>
+
+		<h2>Designer & Developer</h2>
+			<a href="https://bleehaus.github.io/iffall2019/hello/">Miles Lee</a>
+
+		</div>
+		<br><br><br>
+
+	</div>
+
+</body>
+
+
+</html>
