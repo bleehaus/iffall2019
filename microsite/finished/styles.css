@@ -60,7 +60,7 @@ h2 {
 }
 
 #thefive .sidebar {
-	background-color: rgba(200, 200, 103, 1);
+	background-color: rgba(255, 140, 13, 0.85);
 }
 
 #work .sidebar {
@@ -184,12 +184,12 @@ h2 {
 }
 
 #work #work_link a {
-	color: rgba(255, 180, 100, 1);
+	color: rgba(255, 200, 100, 1);
 	display:inline;
 }
 
 #thefive .pullquote {
-	color: rgba(200, 200, 103, 1);
+	color: rgba(255, 140, 13, 0.85);
 }
 
 #thefive #thefive_link {
@@ -197,7 +197,7 @@ h2 {
 }
 
 #thefive #thefive_link a {
-	color: rgba(200, 200, 103, 1);
+	color: rgba(255, 140, 13, 0.85);
 	display:inline;
 }
 
@@ -221,7 +221,7 @@ h2 {
 }
 
 #work .pullquote {
-	color: rgba(255, 180, 100, 1);
+	color: rgba(255, 200, 100, 1);
 }
 
 header {
@@ -289,8 +289,40 @@ when screen is smaller than 800px*/
 	}
 
 	header a {
-		font-size:2em;
-		padding-right:2.5%;
+		font-size:1.25em;
+		padding-right:2%;
+		display:inline-block;
+		width:30%;
+	}
+
+	#philosophy_link {
+		display:inline-block;
+		padding-right:2%;
+		width:30%;
+	}
+
+	#work_link {
+		display:inline-block;
+		width:30%;
+		padding-right:2%;
+	}
+
+	#thefive_link {
+		display:inline-block;
+		width:30%;
+		padding-right:2%;
+	}
+
+	#legacy_link {
+		display:inline-block;
+		width:30%;
+		padding-right:2%;
+	}
+
+	#earlylink {
+		display:inline-block;
+		padding-right:2%;
+		width:30%;
 	}
 
 	.sources h2 {
@@ -305,8 +337,60 @@ when screen is smaller than 800px*/
 	}
 
 	header a {
-		font-size:0.9em;
-		padding-right:2.5%;
+		font-size:1em;
+		padding-right:2%;
+		display:inline-block;
+		width:30%;
+	}
+
+	#philosophy_link {
+		display:inline-block;
+		padding-right:2%;
+		width:30%;
+	}
+
+	#philosophy #philosophy_link {
+		display:inline-block;
+	}
+
+	#work_link {
+		display:inline-block;
+		width:30%;
+		padding-right:2%;
+	}
+
+	#work #work_link {
+		display:inline-block;
+	}
+
+	#thefive_link {
+		display:inline-block;
+		width:30%;
+		padding-right:2%;
+	}
+
+	#thefive #thefive_link {
+		display:inline-block;
+	}
+
+	#legacy_link {
+		display:inline-block;
+		width:30%;
+		padding-right:2%;
+	}
+
+	#legacy #legacy_link {
+		display:inline-block;
+	}
+
+	#earlylink {
+		display:inline-block;
+		padding-right:2%;
+		width:30%;
+	}
+
+	#early #earlylink {
+		display:inline-block;
 	}
 
 	.sources h2 {
