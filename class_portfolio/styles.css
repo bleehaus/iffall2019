@@ -1,0 +1,51 @@
+
+
+body {
+	width:80%;
+	margin:auto;
+	font-family:helvetica, sans-serif;
+}
+
+
+section {
+
+}
+
+
+.square {
+	width:30%;
+	display:inline-block;
+	box-sizing: border-box;
+/*	padding:20px;*/
+	margin:15px;
+	border-width: 1px;
+	border-style:solid;
+	border-color: rgba(0, 0, 0, 0.1);
+	border-radius:15px;
+}
+
+.portfolio_image {
+	width:100%;
+	height:200px;
+	background-size:cover;
+/*	border-radius:10px;*/
+	margin:0;
+	padding:0;
+}
+
+.square h3 {
+	padding:0px 20px 0px 20px;
+}
+
+.square p {
+	padding:0px 20px 0px 20px;
+}
+
+a {
+	color:black;
+	text-decoration:none;
+}
+
+footer {
+	margin: 50px 0px 50px 0px;
+}
